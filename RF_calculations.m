@@ -27,7 +27,9 @@
 % Transmit power regulations
 % Link: https://afar.net/tutorials/fcc-rules/
 
-P_transmitter = 27; % in dBm 
+%P_transmitter = 27; % in dBm 
+%P_transmitter = 33.010299957; % in dBm (2W)
+P_transmitter = 36; % in dBm (4W)
 G_transmitter = 0; % in dBi 
 G_receiver = 2; % in dBi
 operating_frequency = 869.525e6; % in Hz
